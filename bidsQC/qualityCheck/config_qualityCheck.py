@@ -8,7 +8,7 @@ from timepoint import TimePoint
 # Set directories (Check these for your study)
 # These variables are used in the main script and need to be defined here. 
 # They need to exist prior to running the qualityCheck.py
-path_bidsdata = os.path.join(os.sep, 'projects', "sanlab", 'shared', "studyName", 'bids_data')  # Where your subjects' nifti directories are
+path_bidsdata = os.path.join(os.sep, 'projects', "sanlab", 'shared', "bidsWorkshop", 'bids_data')  # Where your subjects' nifti directories are
 logdir = os.path.join(os.getcwd(), 'logs_qualityCheck')  # Log files will go in the folder from which this script is run
 
 # Create a dictionary (the thing below) for each timepoint in your study.
