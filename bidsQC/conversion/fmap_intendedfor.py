@@ -2,7 +2,7 @@ import os
 import json
 
 ####################### Change these to your own paths/times/etc.#######################
-path_bidsdata = os.path.join(os.sep, 'projects', 'sanlab', 'shared', 'studyName', 'bids_data')
+path_bidsdata = os.path.join(os.sep, 'projects', 'sanlab', 'shared', 'bidsWorkshop', 'bids_data')
 include_echo_time = True
 echo_time1 = '0.00437'
 echo_time2 = '0.00683'
